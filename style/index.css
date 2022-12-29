@@ -1,0 +1,230 @@
+body, html{
+    margin: 0;
+}
+.port{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333 repeating-linear-gradient(90deg,
+    rgba(255,255,255,.01), rgba(255,255,255,.01) 5px,
+    rgba(255,255,255,0) 5px, rgba(255,255,255,0) 10px);
+    text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+    color: #222;
+    transition: all 1s;
+
+    font-size: 30px;
+    font-weight: 100px;
+    font-family: sans-serif;
+}
+.port:hover{
+    text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+    color: #1A1A1A;
+
+}
+.me{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333 repeating-linear-gradient(90deg,
+    rgba(255,255,255,.01), rgba(255,255,255,.01) 5px,
+    rgba(255,255,255,0) 5px, rgba(255,255,255,0) 10px);
+    text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+    color:  tomato;
+    transition: all 1s; 
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.downtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333 repeating-linear-gradient(90deg,
+    rgba(255,255,255,.01), rgba(255,255,255,.01) 5px,
+    rgba(255,255,255,0) 5px, rgba(255,255,255,0) 10px);
+    text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+    color: tomato;
+    transition: all 1s; 
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: 100px;
+    font-family: sans-serif;
+}
+
+li{
+    padding-top: 15px;
+}
+.toptext{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    align-items: center;
+    text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+    color:palegoldenrod;
+    transition: all 1s; 
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.inst{
+    width: 50px;
+    padding-left: 25px;
+}
+.vk{
+    width: 50px;
+    padding-left: 25px;
+}
+.prof{
+    padding-top: 55px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    align-items: center;
+    text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+    color: tomato;
+    transition: all 1s; 
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.task1{
+    background: #444;
+}
+.btn:hover{
+    background-position: right center;
+}
+.btn{
+    margin-left: 570px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  black;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s; 
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.task2{
+    background: #121212;
+}
+.rybtext{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    align-items: center;
+    text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+    color: cornsilk;
+    transition: all 1s; 
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.task3{
+    background:silver;
+}
+.task4{
+    background: #537895;
+}
+.toptx{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    align-items: center;
+    text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+    color: #0ba360;
+    transition: all 1s; 
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.task5{
+    background: #066acd;
+}
+#comments {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #comments #inptex {
+    min-width: 350px;
+    width: 350px;
+    background-color:slateblue;
+    padding: 25px 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    min-height: 200px;
+    height: auto;
+  }
+  #comments #inptex input {
+    margin-left: 20px;
+    width: 300px;
+    outline: none;
+    border: none;
+  }
+  #comments button:hover{
+    background-position: right center;
+}
+  #comments #inptex button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  black;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s; 
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 75px;
+
+  }
+  #comments #inptex ul {
+    padding-left: 20px;
+  }
+  #comments #inptex ul li {
+    margin: 5px;
+    padding: 5px 15px;
+    list-style-type: circle;
+  }

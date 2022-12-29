@@ -1,0 +1,29 @@
+.ta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    align-items: center;
+    text-shadow:
+    -1px -1px #000,
+    0 1px 0 #444;
+    color: tomato;
+    transition: all 1s; 
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.headr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.marv{
+    padding-left: 525px;
+    width: 300px;
+}
+.knopki{
+    margin-left: 650px;
+    color: wheat;
+}
